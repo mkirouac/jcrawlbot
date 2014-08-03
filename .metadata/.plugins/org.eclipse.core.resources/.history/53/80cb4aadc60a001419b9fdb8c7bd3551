@@ -1,0 +1,17 @@
+package org.jcrawlbot;
+
+
+public class Crawler
+{
+	public Crawler(Scheduler scheduler, PageFetcher fetcher, UrlDispatcher dispatcher, EventHandler eventHandler
+			, FlowController controller)
+	{
+		
+	}
+	
+	public void Start()
+	{
+		throw new RuntimeException("NotImplemented");
+	}
+	
+}

@@ -1,0 +1,12 @@
+package org.jcrawlbot;
+
+public class FetchFailedException extends Exception
+{
+	private CrawlError error;
+	
+	public FetchFailedException(CrawlError anError)
+	{
+		super();
+		error = anError;
+	}
+}

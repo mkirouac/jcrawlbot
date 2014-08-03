@@ -1,0 +1,6 @@
+package org.jcrawlbot;
+
+public class CrawlError
+{
+
+}
